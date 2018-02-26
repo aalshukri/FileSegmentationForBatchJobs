@@ -75,22 +75,6 @@ class FileSegmentationApp(object):
 
 		
 
-		"""
-		# create outputFileNames
-		supportingFileOutNames=[]
-		for item in supportingFileNames:
-			supportingFileOutNames.append(item.replace('.csv','.seg.csv'))
-
-		#print(supportingFileOutNames)
-		
-
-		# get ids from main file			
-		idDictionary = self.getFileIdsAsDictionary(mainFileName,mainFileColumnId)
-	
-		for i in range(0,len(supportingFileNames)):			
-			self.segmentFile(supportingFileNames[i],supportingFileOutNames[i],supportingFileColumnIds[i],idDictionary)
-		"""
-
 
 
 	"""
